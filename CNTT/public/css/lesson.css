@@ -1,0 +1,79 @@
+.lesson-body {
+    width: 100%;
+    /* margin-bottom: 60px; */
+    padding: 0px 0px 0px 44px;
+}
+
+.lesson-item-body {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.tab-pane {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.lesson-heading {
+    cursor: pointer;
+}
+
+.lesson-heading-text {
+    min-width: 300px;
+}
+
+.lesson-heading:hover {
+    color: var(--primary-color);
+}
+
+.lesson-video {
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+.lesson-video.active-video {
+    display: block !important;
+    width: 100px;
+    height: 100px;
+}
+
+.main_comment-btn {
+    position: fixed;
+    right: 20px;
+    z-index: 1;
+    bottom: 20px;
+    min-width: 160px;
+}
+
+.actionButton_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    border-radius: 999px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 8px 12px;
+    position: relative;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+.actionButton_wrapper svg {
+    width: 27px;
+    height: 27px;
+}
+
+.actionButton_title {
+    margin-left: 8px;
+    
+}
